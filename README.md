@@ -7,6 +7,10 @@ A machine learning project that predicts loan approval using applicant financial
 This project analyzes a loan application dataset and builds classification models to predict whether a loan will be approved.  
 The workflow includes data cleaning, feature encoding, feature selection, model training, and result evaluation.
 
+## Dataset
+
+Dataset is located in the `data/` folder.
+
 ## Key Features
 
 - Data preprocessing and cleaning
@@ -28,5 +32,8 @@ loan-approval-prediction/
 ├── README.md
 ├── notebook/
 │   └── loan_approval_prediction.ipynb
-└── presentation/
-    └── loan_approval_presentation.pdf
+├── presentation/
+│   └── loan_approval_presentation.pdf
+└── data/
+    └── loan-test.csv
+    └── loan_train.csv
