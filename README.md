@@ -20,10 +20,15 @@ Dataset is located in the `data/` folder.
 - Interpretation of important predictors
 
 ## Results
+| Model | Accuracy |
+|---|---|
+| Random Forest | 74% |
+| Decision Tree | 67% |
 
-- **Random Forest accuracy:** 74%
-- **Decision Tree accuracy:** 67%
-- **Credit history** was identified as the strongest predictor of loan approval
+**Key finding:** Credit history was the strongest predictor of loan approval.
+
+## Stack
+Python · scikit-learn · pandas · Google Colab
 
 ## Project Structure
 
